@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Player : MonoBehaviour
     private bool isGrounded;
 
     public UI ui;
+
+    public UnityEvent sampleEvent;
 
     // Update is called once per frame
     void Update()
